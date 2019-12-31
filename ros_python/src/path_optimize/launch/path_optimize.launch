@@ -1,0 +1,4 @@
+<launch>
+    <node name="path_optimize_server" pkg="path_optimize" type="path_optimize_server.py" output="screen" />
+
+</launch>

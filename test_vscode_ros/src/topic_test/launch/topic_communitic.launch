@@ -1,0 +1,12 @@
+<launch>
+
+<arg name="send_fre" value="10"/>
+
+<node name="talker" pkg="topic_test" type="talker" output="screen">
+<param name="send_fre"  value="$(arg send_fre)"/>
+</node>
+
+<node name="listener" pkg="topic_test" type="listener" output="screen"/>
+
+
+</launch>

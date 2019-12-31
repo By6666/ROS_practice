@@ -1,0 +1,5 @@
+<launch>
+    <node name="OccupancyGridDisplay" pkg="OccupancyGrid_display" type="OccupancyGridDisplay" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find OccupancyGrid_display)/launch/display.rviz" />
+
+</launch>

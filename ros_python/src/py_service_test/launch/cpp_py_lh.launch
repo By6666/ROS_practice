@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="py_service_test" name="sum_server" type="server.py" output="screen" />
+    <node pkg="py_service_test" name="client_c" type="client_c" output="screen" />
+
+</launch>

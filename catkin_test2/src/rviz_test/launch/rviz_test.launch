@@ -1,0 +1,7 @@
+<launch>
+
+<node name="rivz_shape" pkg="rviz_test" type="rivz_shape" />
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find rviz_test)/launch/rviz_cfg.rviz"/>
+
+
+</launch>
