@@ -1,0 +1,1 @@
+Hollow[] hollow_array

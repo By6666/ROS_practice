@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find hollow)/launch/hollow.rviz" output="screen" />
+    <node pkg="hollow" name="hollow_create" type="hollow_create" output="screen" />
+
+</launch>

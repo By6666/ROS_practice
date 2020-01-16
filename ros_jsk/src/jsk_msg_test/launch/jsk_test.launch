@@ -1,0 +1,6 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jsk_msg_test)/launch/jsk_rviz.rviz" output="screen" />
+    <node name="ros_jsk_msg_test" pkg="jsk_msg_test" type="ros_jsk_msg_test" output="screen" /> <!--launch-prefix="gnome-terminal -e"-->
+
+
+</launch>

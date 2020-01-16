@@ -1,0 +1,2 @@
+uint8 hollow_id
+jsk_recognition_msgs/BoundingBox bounding_box
